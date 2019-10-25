@@ -1,19 +1,19 @@
-git init // создание каталога 
+git init // создание каталога
 git add . // добавление сущ файла
 git commit -m "создал файл"
-git remote add origin url // удаленный репозиторий
+git remote add origin url // добавление удаленного репозитория
 git push origin url // удаленная работа и обмен результатами работы
 git checkout -b develop // добавление завершенной функциональности
 git checkout -b plus // переключение между ветками
 git add .
 git commit -m "добавил строка"
-git push origin plus
+git push origin plus // добавили изменения в ветку plus
 git clone url
-git checkout develop
-git checkout -b minus
+git checkout develop // перешли на верку develop
+git checkout -b minus // создали и перешли на ветку minus
 git add .
 git commit -m "добавил строка1"
-git push origin minus
+git push origin minus 
 git checkout develop
 git merge plus
 git commit -m "добавил строка1"
@@ -21,6 +21,6 @@ git push origin develop
 git merge minus
 git commit -m "добавил строка1"
 git push origin develop
-git commit -a 
+git commit -a
 git add .
 git commit -m "добавил файл с командами"
