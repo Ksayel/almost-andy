@@ -1,6 +1,95 @@
-<head>
-<title>Lad1(HTML)</title>
-</head>
-<body>
-<p>Разметка1</p>
-<body>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Макет </title>
+  <style type="text/css">
+   .header { 
+    position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 90%;
+    border: 4px dotted black;
+	text-align: center;
+	font: 50px Arial;
+	background-color: #FF0000;
+   }
+   .LCol{
+    position: absolute;
+	top: 10%;
+	left: 0;
+	right: 70%;
+	bottom: 10%;
+    border: 4px dashed black;
+	font: 18px Palatino Linotype;
+	background-color: #FF4500;
+   }
+   .CCol {
+    position: absolute;
+	top: 10%;
+	left: 30%;
+	right: 30%;
+	bottom: 10%;
+    border: 4px solid black;
+	font: 16px Segoe Print;
+	background-color:#FFFF00;
+   }
+   .RCol {
+    position: absolute;
+	top: 10%;
+	left: 70%;
+	right: 0;
+	bottom: 10%;
+    border: 4px double black;
+	font: 30px Comic Sans MS;
+	background-color: #00FF00;
+   }
+   .footer {
+    position: absolute;
+	top: 90%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-style: outset;
+	border-color: #00AFFF;
+	border-width: 7px;
+	text-align: center;
+	font: 40px Franklin Gothic Heavy;
+	background-color: #00FFFF;
+   }
+  </style>
+ </head>
+ <body>
+   <div class="header">Исторический турнир</div>
+   <div class="LCol">
+     <p>
+	 Семантические элементы HTML5 доступно описывают свой смысл или назначение как для браузеров, так и для веб-разработчиков.
+     До появления стандарта HTML5 вся разметка страниц осуществлялась преимущественно с помощью элементов , которым присваивали классы class или идентификаторы id для наглядности разметки. С их помощью в HTML-документе размещали верхние и нижние колонтитулы, боковые панели, навигацию и многое другое.
+	 </p>
+   </div>
+   <div class="CCol"> 
+   <h2>Опрос общественного мнения показал</h2>
+    <ul>
+     <li>что пароход изобретен: Петром I, А. Эйнштейном и А. Поповым;</li>
+     <li>Диего Веласкес писал свои полотна в стиле: империализма, кубизма 
+     и империосионизма;</li>
+     <li>Фаросский маяк находится в Фаросе;</li>
+     <li>конфуцианство возникло в: Италии, Корее и Франции;</li>
+     <li>богами торговли и воровства в Древней Греции были: Марс, Меркурий 
+     и Дионис;</li>
+     <li>Франция – это город;</li>
+     <li>богами загробного мира в Египте были: Аид, Анубис и Ассирис;</li>
+     <li>столица Золотой Орды — Монголия;</li>
+     <li>главные противники Александра Македонского: татаро-монголы, Дедал 
+     и Цезарь;</li>
+    </ul>
+   </div>
+   <div class="RCol">
+    <h3>Статистика</h3>
+    <p>одиннадцать человек дошли до финала;</p>
+    <p>один человек правильно указал в каком стиле писал Диего Веласкес;</p>
+    <p>только один человек знал, кто изобрел пароход;</p>
+   </div> 
+   <div class="footer">Спасибо за внимание!!!</div>
+ </body>
+</html>
